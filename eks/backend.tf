@@ -7,7 +7,7 @@ terraform {
     }
   }
   backend "s3" {
-    bucket         = "eks-three-tier"
+    bucket         = "go-proj"
     region         = "ap-south-1"
     key            = "eks/terraform.tfstate"
     dynamodb_table = "Lock-Files"
